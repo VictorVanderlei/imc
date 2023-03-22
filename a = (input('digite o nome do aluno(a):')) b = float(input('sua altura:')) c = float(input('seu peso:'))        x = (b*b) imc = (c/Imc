@@ -1,0 +1,9 @@
+a = (input('digite o nome do aluno(a):'))
+b = float(input('sua altura:'))
+c = float(input('seu peso:'))       
+x = (b*b)
+imc = (c/x)
+if 18 < imc < 25:
+    print('{},sua massa corporal é:{:.2f} vc esta  normal'.format(a,imc))
+else:
+	print('{},sua massa corporal é {},vc esta com risco'.format(a,imc))
